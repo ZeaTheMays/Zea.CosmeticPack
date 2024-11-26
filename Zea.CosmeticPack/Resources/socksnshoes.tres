@@ -1,0 +1,34 @@
+[gd_resource type="Resource" load_steps=7 format=2]
+
+[ext_resource path="res://Resources/Scripts/cosmetic_resource.gd" type="Script" id=1]
+[ext_resource path="res://mods/Zea.CosmeticPack/Assets/Models/socksnshoes.tres" type="ArrayMesh" id=2]
+[ext_resource path="res://mods/Zea.CosmeticPack/Assets/Textures/CosmeticIcons/socks_n_shoes.png" type="Texture" id=3]
+[ext_resource path="res://Assets/Models/Cosmetics/rig_main_updated.tres" type="Skin" id=5]
+
+[sub_resource type="SpatialMaterial" id=1]
+albedo_color = Color( 0.0627451, 0.109804, 0.192157, 1 )
+
+[sub_resource type="SpatialMaterial" id=2]
+albedo_color = Color( 1, 0.956863, 0.890196, 1 )
+
+[resource]
+script = ExtResource( 1 )
+name = "Socks N' Shoes"
+desc = "Warm!"
+title = ""
+icon = ExtResource( 3 )
+mesh = ExtResource( 2 )
+species_alt_mesh = [  ]
+mesh_skin = ExtResource( 5 )
+material = SubResource( 1 )
+secondary_material = SubResource( 2 )
+main_color = Color( 1, 1, 1, 1 )
+body_pattern = [  ]
+mirror_face = true
+flip = false
+allow_blink = true
+category = "accessory"
+cos_internal_id = 0
+in_rotation = false
+chest_reward = false
+cost = 10

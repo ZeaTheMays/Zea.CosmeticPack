@@ -1,0 +1,37 @@
+[gd_resource type="Resource" load_steps=7 format=2]
+
+[ext_resource path="res://mods/Zea.CosmeticPack/Assets/Models/varsity_jacket.tres" type="ArrayMesh" id=1]
+[ext_resource path="res://Resources/Scripts/cosmetic_resource.gd" type="Script" id=2]
+[ext_resource path="res://Assets/Models/Cosmetics/rig_main_updated.tres" type="Skin" id=3]
+
+[sub_resource type="StreamTexture" id=2]
+flags = 2
+load_path = "res://.import/varsity_jacket1.png-daffde761ff5583ae1e4c3022900bc17.stex"
+
+[sub_resource type="StreamTexture" id=5]
+flags = 18
+load_path = "res://.import/varsity_jacket_white1.png-7a1599a50e8bd96560722f0e06e3025e.stex"
+
+[sub_resource type="SpatialMaterial" id=6]
+albedo_texture = SubResource( 5 )
+
+[resource]
+script = ExtResource( 2 )
+name = "Tan Varsity Jacket"
+desc = "Classic with a bold twist!"
+title = ""
+icon = SubResource( 2 )
+mesh = ExtResource( 1 )
+species_alt_mesh = [  ]
+mesh_skin = ExtResource( 3 )
+material = SubResource( 6 )
+main_color = Color( 1, 1, 1, 1 )
+body_pattern = [  ]
+mirror_face = true
+flip = false
+allow_blink = true
+category = "overshirt"
+cos_internal_id = 0
+in_rotation = false
+chest_reward = false
+cost = 10

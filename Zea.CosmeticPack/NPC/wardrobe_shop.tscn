@@ -1,0 +1,1195 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://Scenes/HUD/Shop/ShopButtons/shop_button.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scenes/HUD/Shop/ShopSetups/shop_setup.gd" type="Script" id=2]
+[ext_resource path="res://Assets/Textures/UI/bait_icons3.png" type="Texture" id=3]
+[ext_resource path="res://Scenes/HUD/Shop/ShopButtons/button_cosmetic_unlock.gd" type="Script" id=4]
+[ext_resource path="res://Scenes/HUD/Shop/ShopSetups/shop_category.gd" type="Script" id=5]
+[ext_resource path="res://Sounds/npc_voice_4.ogg" type="AudioStream" id=7]
+
+[sub_resource type="AudioStreamRandomPitch" id=1]
+audio_stream = ExtResource( 7 )
+
+[node name="test_shop" type="Node"]
+script = ExtResource( 2 )
+shop_title = "wardrobe"
+dialogue = true
+dialogue_open = [ "creaak...... was that good? did it sounds like a door creaking?", "creeaaak... is this the right kind of door sound?", "hmmm, click-click! no, no, that was too... metallic, wasn’t it?", "eeeek! too high-pitched? should i try deeper?", "crreeaak... i think that was closer. or was it?", "swoosh-squeak... is that the sound doors make?", "craaack... wait, does that mean i’m broken now?", "whiiiir... maybe not that one. too robot-y, huh?", "squeak-scrrritch! hmm, no... less scratchy?", "thud... is that what doors sound like when they’re tired?" ]
+dialogue_buy = [ "uh, are you sure about that?", "oh, bold choice... in a questionable way.", "hmm, i didn’t know they made clothes like that anymore...", "you do know how that looks, right?", "i mean, if you're going for that look...", "whoa, this is what you're going with? brave.", "uh, is it supposed to fit like that?", "well, that's... an interesting combination.", "are you trying to start a new trend, or...?", "yikes, that's... uh, something you can wear, sure." ]
+dialogue_voice = SubResource( 1 )
+
+[node name="hats" type="Node" parent="."]
+script = ExtResource( 5 )
+category_title = "hats"
+
+[node name="white_catbeanie" parent="hats" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.white_catbeanie"
+
+[node name="tan_catbeanie" parent="hats" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.tan_catbeanie"
+
+[node name="brown_catbeanie" parent="hats" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.brown_catbeanie"
+
+[node name="red_catbeanie" parent="hats" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.red_catbeanie"
+
+[node name="maroon_catbeanie" parent="hats" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.maroon_catbeanie"
+
+[node name="salmon_catbeanie" parent="hats" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.salmon_catbeanie"
+
+[node name="olive_catbeanie" parent="hats" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.olive_catbeanie"
+
+[node name="green_catbeanie" parent="hats" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.green_catbeanie"
+
+[node name="blue_catbeanie" parent="hats" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.blue_catbeanie"
+
+[node name="grey_catbeanie" parent="hats" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.grey_catbeanie"
+
+[node name="purple_catbeanie" parent="hats" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.purple_catbeanie"
+
+[node name="yellow_catbeanie" parent="hats" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.yellow_catbeanie"
+
+[node name="orange_catbeanie" parent="hats" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.orange_catbeanie"
+
+[node name="black_catbeanie" parent="hats" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.black_catbeanie"
+
+[node name="white_newsboy" parent="hats" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.white_newsboy"
+
+[node name="tan_newsboy" parent="hats" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.tan_newsboy"
+
+[node name="brown_newsboy" parent="hats" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.brown_newsboy"
+
+[node name="red_newsboy" parent="hats" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.red_newsboy"
+
+[node name="maroon_newsboy" parent="hats" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.maroon_newsboy"
+
+[node name="salmon_newsboy" parent="hats" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.salmon_newsboy"
+
+[node name="olive_newsboy" parent="hats" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.olive_newsboy"
+
+[node name="green_newsboy" parent="hats" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.green_newsboy"
+
+[node name="blue_newsboy" parent="hats" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.blue_newsboy"
+
+[node name="grey_newsboy" parent="hats" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.grey_newsboy"
+
+[node name="purple_newsboy" parent="hats" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.purple_newsboy"
+
+[node name="yellow_newsboy" parent="hats" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.yellow_newsboy"
+
+[node name="orange_newsboy" parent="hats" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.orange_newsboy"
+
+[node name="black_newsboy" parent="hats" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.black_newsboy"
+
+[node name="shirts" type="Node" parent="."]
+script = ExtResource( 5 )
+category_title = "shirts"
+
+[node name="white_star" parent="shirts" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 100.0
+cosmetic_unlock = "Zea.CosmeticPack.white_star"
+
+[node name="tan_star" parent="shirts" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 100.0
+cosmetic_unlock = "Zea.CosmeticPack.tan_star"
+
+[node name="brown_star" parent="shirts" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 100.0
+cosmetic_unlock = "Zea.CosmeticPack.brown_star"
+
+[node name="red_star" parent="shirts" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 100.0
+cosmetic_unlock = "Zea.CosmeticPack.red_star"
+
+[node name="maroon_star" parent="shirts" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 100.0
+cosmetic_unlock = "Zea.CosmeticPack.maroon_star"
+
+[node name="salmon_star" parent="shirts" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 100.0
+cosmetic_unlock = "Zea.CosmeticPack.salmon_star"
+
+[node name="olive_star" parent="shirts" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 100.0
+cosmetic_unlock = "Zea.CosmeticPack.olive_star"
+
+[node name="green_star" parent="shirts" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 100.0
+cosmetic_unlock = "Zea.CosmeticPack.green_star"
+
+[node name="blue_star" parent="shirts" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 100.0
+cosmetic_unlock = "Zea.CosmeticPack.blue_star"
+
+[node name="grey_star" parent="shirts" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 100.0
+cosmetic_unlock = "Zea.CosmeticPack.grey_star"
+
+[node name="purple_star" parent="shirts" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 100.0
+cosmetic_unlock = "Zea.CosmeticPack.purple_star"
+
+[node name="yellow_star" parent="shirts" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 100.0
+cosmetic_unlock = "Zea.CosmeticPack.yellow_star"
+
+[node name="orange_star" parent="shirts" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 100.0
+cosmetic_unlock = "Zea.CosmeticPack.orange_star"
+
+[node name="black_star" parent="shirts" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 100.0
+cosmetic_unlock = "Zea.CosmeticPack.black_star"
+
+[node name="white_baggyshirt" parent="shirts" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 100.0
+cosmetic_unlock = "Zea.CosmeticPack.white_baggyshirt"
+
+[node name="tan_baggyshirt" parent="shirts" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 100.0
+cosmetic_unlock = "Zea.CosmeticPack.tan_baggyshirt"
+
+[node name="brown_baggyshirt" parent="shirts" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 100.0
+cosmetic_unlock = "Zea.CosmeticPack.brown_baggyshirt"
+
+[node name="red_baggyshirt" parent="shirts" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 100.0
+cosmetic_unlock = "Zea.CosmeticPack.red_baggyshirt"
+
+[node name="maroon_baggyshirt" parent="shirts" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 100.0
+cosmetic_unlock = "Zea.CosmeticPack.maroon_baggyshirt"
+
+[node name="salmon_baggyshirt" parent="shirts" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 100.0
+cosmetic_unlock = "Zea.CosmeticPack.salmon_baggyshirt"
+
+[node name="olive_baggyshirt" parent="shirts" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 100.0
+cosmetic_unlock = "Zea.CosmeticPack.olive_baggyshirt"
+
+[node name="green_baggyshirt" parent="shirts" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 100.0
+cosmetic_unlock = "Zea.CosmeticPack.green_baggyshirt"
+
+[node name="blue_baggyshirt" parent="shirts" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 100.0
+cosmetic_unlock = "Zea.CosmeticPack.blue_baggyshirt"
+
+[node name="grey_baggyshirt" parent="shirts" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 100.0
+cosmetic_unlock = "Zea.CosmeticPack.grey_baggyshirt"
+
+[node name="purple_baggyshirt" parent="shirts" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 100.0
+cosmetic_unlock = "Zea.CosmeticPack.purple_baggyshirt"
+
+[node name="yellow_baggyshirt" parent="shirts" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 100.0
+cosmetic_unlock = "Zea.CosmeticPack.yellow_baggyshirt"
+
+[node name="orange_baggyshirt" parent="shirts" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 100.0
+cosmetic_unlock = "Zea.CosmeticPack.orange_baggyshirt"
+
+[node name="black_baggyshirt" parent="shirts" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 100.0
+cosmetic_unlock = "Zea.CosmeticPack.black_baggyshirt"
+
+[node name="varsity jackets" type="Node" parent="."]
+script = ExtResource( 5 )
+category_title = "varsity jackets"
+
+[node name="tan_wvarsity" parent="varsity jackets" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 250.0
+cosmetic_unlock = "Zea.CosmeticPack.tan_wvarsity"
+
+[node name="brown_wvarsity" parent="varsity jackets" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 250.0
+cosmetic_unlock = "Zea.CosmeticPack.brown_wvarsity"
+
+[node name="red_wvarsity" parent="varsity jackets" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 250.0
+cosmetic_unlock = "Zea.CosmeticPack.red_wvarsity"
+
+[node name="maroon_wvarsity" parent="varsity jackets" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 250.0
+cosmetic_unlock = "Zea.CosmeticPack.maroon_wvarsity"
+
+[node name="salmon_wvarsity" parent="varsity jackets" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 250.0
+cosmetic_unlock = "Zea.CosmeticPack.salmon_wvarsity"
+
+[node name="olive_wvarsity" parent="varsity jackets" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 250.0
+cosmetic_unlock = "Zea.CosmeticPack.olive_wvarsity"
+
+[node name="green_wvarsity" parent="varsity jackets" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 250.0
+cosmetic_unlock = "Zea.CosmeticPack.green_wvarsity"
+
+[node name="blue_wvarsity" parent="varsity jackets" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 250.0
+cosmetic_unlock = "Zea.CosmeticPack.blue_wvarsity"
+
+[node name="grey_wvarsity" parent="varsity jackets" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 250.0
+cosmetic_unlock = "Zea.CosmeticPack.grey_wvarsity"
+
+[node name="purple_wvarsity" parent="varsity jackets" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 250.0
+cosmetic_unlock = "Zea.CosmeticPack.purple_wvarsity"
+
+[node name="yellow_wvarsity" parent="varsity jackets" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 250.0
+cosmetic_unlock = "Zea.CosmeticPack.yellow_wvarsity"
+
+[node name="orange_wvarsity" parent="varsity jackets" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 250.0
+cosmetic_unlock = "Zea.CosmeticPack.orange_wvarsity"
+
+[node name="black_wvarsity" parent="varsity jackets" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 250.0
+cosmetic_unlock = "Zea.CosmeticPack.black_wvarsity"
+
+[node name="tan_bvarsity" parent="varsity jackets" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 250.0
+cosmetic_unlock = "Zea.CosmeticPack.tan_bvarsity"
+
+[node name="brown_bvarsity" parent="varsity jackets" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 250.0
+cosmetic_unlock = "Zea.CosmeticPack.brown_bvarsity"
+
+[node name="red_bvarsity" parent="varsity jackets" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 250.0
+cosmetic_unlock = "Zea.CosmeticPack.red_bvarsity"
+
+[node name="maroon_bvarsity" parent="varsity jackets" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 250.0
+cosmetic_unlock = "Zea.CosmeticPack.maroon_bvarsity"
+
+[node name="salmon_bvarsity" parent="varsity jackets" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 250.0
+cosmetic_unlock = "Zea.CosmeticPack.salmon_bvarsity"
+
+[node name="olive_bvarsity" parent="varsity jackets" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 250.0
+cosmetic_unlock = "Zea.CosmeticPack.olive_bvarsity"
+
+[node name="green_bvarsity" parent="varsity jackets" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 250.0
+cosmetic_unlock = "Zea.CosmeticPack.green_bvarsity"
+
+[node name="blue_bvarsity" parent="varsity jackets" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 250.0
+cosmetic_unlock = "Zea.CosmeticPack.blue_bvarsity"
+
+[node name="grey_bvarsity" parent="varsity jackets" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 250.0
+cosmetic_unlock = "Zea.CosmeticPack.grey_bvarsity"
+
+[node name="purple_bvarsity" parent="varsity jackets" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 250.0
+cosmetic_unlock = "Zea.CosmeticPack.purple_bvarsity"
+
+[node name="yellow_bvarsity" parent="varsity jackets" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 250.0
+cosmetic_unlock = "Zea.CosmeticPack.yellow_bvarsity"
+
+[node name="orange_bvarsity" parent="varsity jackets" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 250.0
+cosmetic_unlock = "Zea.CosmeticPack.orange_bvarsity"
+
+[node name="white_bvarsity" parent="varsity jackets" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 250.0
+cosmetic_unlock = "Zea.CosmeticPack.white_bvarsity"
+
+[node name="gay_varsity" parent="varsity jackets" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 200.0
+cosmetic_unlock = "Zea.CosmeticPack.gay_varsity"
+
+[node name="bi_varsity" parent="varsity jackets" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 200.0
+cosmetic_unlock = "Zea.CosmeticPack.bi_varsity"
+
+[node name="pan_varsity" parent="varsity jackets" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 200.0
+cosmetic_unlock = "Zea.CosmeticPack.pan_varsity"
+
+[node name="trans_varsity" parent="varsity jackets" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 200.0
+cosmetic_unlock = "Zea.CosmeticPack.trans_varsity"
+
+[node name="ace_varsity" parent="varsity jackets" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 200.0
+cosmetic_unlock = "Zea.CosmeticPack.ace_varsity"
+
+[node name="lesbian_varsity" parent="varsity jackets" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 200.0
+cosmetic_unlock = "Zea.CosmeticPack.lesbian_varsity"
+
+[node name="mlm_varsity" parent="varsity jackets" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 200.0
+cosmetic_unlock = "Zea.CosmeticPack.mlm_varsity"
+
+[node name="nonbinary_varsity" parent="varsity jackets" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 200.0
+cosmetic_unlock = "Zea.CosmeticPack.nonbinary_varsity"
+
+[node name="pants and shorts" type="Node" parent="."]
+script = ExtResource( 5 )
+category_title = "pants and shorts"
+
+[node name="white_baggypants" parent="pants and shorts" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.white_baggypants"
+
+[node name="tan_baggypants" parent="pants and shorts" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.tan_baggypants"
+
+[node name="brown_baggypants" parent="pants and shorts" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.brown_baggypants"
+
+[node name="red_baggypants" parent="pants and shorts" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.red_baggypants"
+
+[node name="maroon_baggypants" parent="pants and shorts" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.maroon_baggypants"
+
+[node name="salmon_baggypants" parent="pants and shorts" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.salmon_baggypants"
+
+[node name="olive_baggypants" parent="pants and shorts" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.olive_baggypants"
+
+[node name="green_baggypants" parent="pants and shorts" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.green_baggypants"
+
+[node name="blue_baggypants" parent="pants and shorts" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.blue_baggypants"
+
+[node name="grey_baggypants" parent="pants and shorts" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.grey_baggypants"
+
+[node name="purple_baggypants" parent="pants and shorts" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.purple_baggypants"
+
+[node name="yellow_baggypants" parent="pants and shorts" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.yellow_baggypants"
+
+[node name="orange_baggypants" parent="pants and shorts" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.orange_baggypants"
+
+[node name="black_baggypants" parent="pants and shorts" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.black_baggypants"
+
+[node name="white_baggyshorts" parent="pants and shorts" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.white_baggyshorts"
+
+[node name="tan_baggyshorts" parent="pants and shorts" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.tan_baggyshorts"
+
+[node name="brown_baggyshorts" parent="pants and shorts" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.brown_baggyshorts"
+
+[node name="red_baggyshorts" parent="pants and shorts" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.red_baggyshorts"
+
+[node name="maroon_baggyshorts" parent="pants and shorts" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.maroon_baggyshorts"
+
+[node name="salmon_baggyshorts" parent="pants and shorts" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.salmon_baggyshorts"
+
+[node name="olive_baggyshorts" parent="pants and shorts" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.olive_baggyshorts"
+
+[node name="green_baggyshorts" parent="pants and shorts" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.green_baggyshorts"
+
+[node name="blue_baggyshorts" parent="pants and shorts" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.blue_baggyshorts"
+
+[node name="grey_baggyshorts" parent="pants and shorts" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.grey_baggyshorts"
+
+[node name="purple_baggyshorts" parent="pants and shorts" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.purple_baggyshorts"
+
+[node name="yellow_baggyshorts" parent="pants and shorts" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.yellow_baggyshorts"
+
+[node name="orange_baggyshorts" parent="pants and shorts" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.orange_baggyshorts"
+
+[node name="black_baggyshorts" parent="pants and shorts" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.black_baggyshorts"
+
+[node name="accessories" type="Node" parent="."]
+script = ExtResource( 5 )
+category_title = "accessories"
+
+[node name="white_gradientglasses" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 150.0
+cosmetic_unlock = "Zea.CosmeticPack.white_gradientglasses"
+
+[node name="tan_gradientglasses" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 150.0
+cosmetic_unlock = "Zea.CosmeticPack.tan_gradientglasses"
+
+[node name="brown_gradientglasses" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 150.0
+cosmetic_unlock = "Zea.CosmeticPack.brown_gradientglasses"
+
+[node name="red_gradientglasses" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 150.0
+cosmetic_unlock = "Zea.CosmeticPack.red_gradientglasses"
+
+[node name="maroon_gradientglasses" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 150.0
+cosmetic_unlock = "Zea.CosmeticPack.maroon_gradientglasses"
+
+[node name="salmon_gradientglasses" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 150.0
+cosmetic_unlock = "Zea.CosmeticPack.salmon_gradientglasses"
+
+[node name="olive_gradientglasses" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 150.0
+cosmetic_unlock = "Zea.CosmeticPack.olive_gradientglasses"
+
+[node name="green_gradientglasses" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 150.0
+cosmetic_unlock = "Zea.CosmeticPack.green_gradientglasses"
+
+[node name="blue_gradientglasses" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 150.0
+cosmetic_unlock = "Zea.CosmeticPack.blue_gradientglasses"
+
+[node name="grey_gradientglasses" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 150.0
+cosmetic_unlock = "Zea.CosmeticPack.grey_gradientglasses"
+
+[node name="purple_gradientglasses" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 150.0
+cosmetic_unlock = "Zea.CosmeticPack.purple_gradientglasses"
+
+[node name="yellow_gradientglasses" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 150.0
+cosmetic_unlock = "Zea.CosmeticPack.yellow_gradientglasses"
+
+[node name="orange_gradientglasses" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 150.0
+cosmetic_unlock = "Zea.CosmeticPack.orange_gradientglasses"
+
+[node name="black_gradientglasses" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 150.0
+cosmetic_unlock = "Zea.CosmeticPack.black_gradientglasses"
+
+[node name="white_bubblegum" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.white_bubblegum"
+
+[node name="tan_bubblegum" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.tan_bubblegum"
+
+[node name="brown_bubblegum" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.brown_bubblegum"
+
+[node name="red_bubblegum" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.red_bubblegum"
+
+[node name="maroon_bubblegum" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.maroon_bubblegum"
+
+[node name="salmon_bubblegum" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.salmon_bubblegum"
+
+[node name="olive_bubblegum" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.olive_bubblegum"
+
+[node name="green_bubblegum" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.green_bubblegum"
+
+[node name="blue_bubblegum" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.blue_bubblegum"
+
+[node name="grey_bubblegum" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.grey_bubblegum"
+
+[node name="purple_bubblegum" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.purple_bubblegum"
+
+[node name="yellow_bubblegum" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.yellow_bubblegum"
+
+[node name="orange_bubblegum" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.orange_bubblegum"
+
+[node name="black_bubblegum" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.black_bubblegum"
+
+[node name="white_tie" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 100.0
+cosmetic_unlock = "Zea.CosmeticPack.white_tie"
+
+[node name="tan_tie" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 100.0
+cosmetic_unlock = "Zea.CosmeticPack.tan_tie"
+
+[node name="brown_tie" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 100.0
+cosmetic_unlock = "Zea.CosmeticPack.brown_tie"
+
+[node name="red_tie" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 100.0
+cosmetic_unlock = "Zea.CosmeticPack.red_tie"
+
+[node name="maroon_tie" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 100.0
+cosmetic_unlock = "Zea.CosmeticPack.maroon_tie"
+
+[node name="salmon_tie" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 100.0
+cosmetic_unlock = "Zea.CosmeticPack.salmon_tie"
+
+[node name="olive_tie" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 100.0
+cosmetic_unlock = "Zea.CosmeticPack.olive_tie"
+
+[node name="green_tie" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 100.0
+cosmetic_unlock = "Zea.CosmeticPack.green_tie"
+
+[node name="blue_tie" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 100.0
+cosmetic_unlock = "Zea.CosmeticPack.blue_tie"
+
+[node name="grey_tie" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 100.0
+cosmetic_unlock = "Zea.CosmeticPack.grey_tie"
+
+[node name="purple_tie" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 100.0
+cosmetic_unlock = "Zea.CosmeticPack.purple_tie"
+
+[node name="yellow_tie" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 100.0
+cosmetic_unlock = "Zea.CosmeticPack.yellow_tie"
+
+[node name="orange_tie" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 100.0
+cosmetic_unlock = "Zea.CosmeticPack.orange_tie"
+
+[node name="black_tie" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 100.0
+cosmetic_unlock = "Zea.CosmeticPack.black_tie"
+
+[node name="white_backpack" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 250.0
+cosmetic_unlock = "Zea.CosmeticPack.white_backpack"
+
+[node name="tan_backpack" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 250.0
+cosmetic_unlock = "Zea.CosmeticPack.tan_backpack"
+
+[node name="brown_backpack" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 250.0
+cosmetic_unlock = "Zea.CosmeticPack.brown_backpack"
+
+[node name="red_backpack" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 250.0
+cosmetic_unlock = "Zea.CosmeticPack.red_backpack"
+
+[node name="maroon_backpack" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 250.0
+cosmetic_unlock = "Zea.CosmeticPack.maroon_backpack"
+
+[node name="salmon_backpack" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 250.0
+cosmetic_unlock = "Zea.CosmeticPack.salmon_backpack"
+
+[node name="olive_backpack" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 250.0
+cosmetic_unlock = "Zea.CosmeticPack.olive_backpack"
+
+[node name="green_backpack" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 250.0
+cosmetic_unlock = "Zea.CosmeticPack.green_backpack"
+
+[node name="blue_backpack" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 250.0
+cosmetic_unlock = "Zea.CosmeticPack.blue_backpack"
+
+[node name="grey_backpack" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 250.0
+cosmetic_unlock = "Zea.CosmeticPack.grey_backpack"
+
+[node name="purple_backpack" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 250.0
+cosmetic_unlock = "Zea.CosmeticPack.purple_backpack"
+
+[node name="yellow_backpack" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 250.0
+cosmetic_unlock = "Zea.CosmeticPack.yellow_backpack"
+
+[node name="orange_backpack" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 250.0
+cosmetic_unlock = "Zea.CosmeticPack.orange_backpack"
+
+[node name="black_backpack" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 250.0
+cosmetic_unlock = "Zea.CosmeticPack.black_backpack"
+
+[node name="white_messengerbag" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 250.0
+cosmetic_unlock = "Zea.CosmeticPack.white_messengerbag"
+
+[node name="tan_messengerbag" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 250.0
+cosmetic_unlock = "Zea.CosmeticPack.tan_messengerbag"
+
+[node name="brown_messengerbag" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 250.0
+cosmetic_unlock = "Zea.CosmeticPack.brown_messengerbag"
+
+[node name="red_messengerbag" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 250.0
+cosmetic_unlock = "Zea.CosmeticPack.red_messengerbag"
+
+[node name="maroon_messengerbag" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 250.0
+cosmetic_unlock = "Zea.CosmeticPack.maroon_messengerbag"
+
+[node name="salmon_messengerbag" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 250.0
+cosmetic_unlock = "Zea.CosmeticPack.salmon_messengerbag"
+
+[node name="olive_messengerbag" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 250.0
+cosmetic_unlock = "Zea.CosmeticPack.olive_messengerbag"
+
+[node name="green_messengerbag" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 250.0
+cosmetic_unlock = "Zea.CosmeticPack.green_messengerbag"
+
+[node name="blue_messengerbag" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 250.0
+cosmetic_unlock = "Zea.CosmeticPack.blue_messengerbag"
+
+[node name="grey_messengerbag" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 250.0
+cosmetic_unlock = "Zea.CosmeticPack.grey_messengerbag"
+
+[node name="purple_messengerbag" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 250.0
+cosmetic_unlock = "Zea.CosmeticPack.purple_messengerbag"
+
+[node name="yellow_messengerbag" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 250.0
+cosmetic_unlock = "Zea.CosmeticPack.yellow_messengerbag"
+
+[node name="orange_messengerbag" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 250.0
+cosmetic_unlock = "Zea.CosmeticPack.orange_messengerbag"
+
+[node name="black_messengerbag" parent="accessories" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 250.0
+cosmetic_unlock = "Zea.CosmeticPack.black_messengerbag"
+
+[node name="special" type="Node" parent="."]
+script = ExtResource( 5 )
+category_title = "special"
+
+[node name="brokie_catbeanie" parent="special" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 75.0
+cosmetic_unlock = "Zea.CosmeticPack.brokie_catbeanie"
+
+[node name="black_zvarsity" parent="special" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 250.0
+cosmetic_unlock = "Zea.CosmeticPack.black_zvarsity"
+
+[node name="lavender_zvarsity" parent="special" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 250.0
+cosmetic_unlock = "Zea.CosmeticPack.lavender_zvarsity"
+
+[node name="trans_zvarsity" parent="special" instance=ExtResource( 1 )]
+icon = ExtResource( 3 )
+script = ExtResource( 4 )
+cost = 250.0
+cosmetic_unlock = "Zea.CosmeticPack.trans_zvarsity"

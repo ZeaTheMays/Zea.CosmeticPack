@@ -1,0 +1,31 @@
+[gd_resource type="Resource" load_steps=6 format=2]
+
+[ext_resource path="res://Resources/Scripts/cosmetic_resource.gd" type="Script" id=1]
+[ext_resource path="res://mods/Zea.CosmeticPack/Assets/Models/baggy_shorts.tres" type="ArrayMesh" id=2]
+[ext_resource path="res://mods/Zea.CosmeticPack/Assets/Textures/CosmeticIcons/baggy_shorts_icon.png" type="Texture" id=3]
+[ext_resource path="res://Assets/Models/Cosmetics/rig_main_updated.tres" type="Skin" id=4]
+
+[sub_resource type="SpatialMaterial" id=1]
+
+albedo_color = Color( 0.909804, 0.85098, 0.760784, 1 )
+
+[resource]
+script = ExtResource( 1 )
+name = "White Baggy Shorts"
+desc = "let it hang queen"
+title = ""
+icon = ExtResource( 3 )
+mesh = ExtResource( 2 )
+species_alt_mesh = [  ]
+mesh_skin = ExtResource( 4 )
+material = SubResource( 1 )
+main_color = Color( 0.909804, 0.85098, 0.760784, 1 )
+body_pattern = [  ]
+mirror_face = true
+flip = false
+allow_blink = true
+category = "legs"
+cos_internal_id = 0
+in_rotation = false
+chest_reward = false
+cost = 10

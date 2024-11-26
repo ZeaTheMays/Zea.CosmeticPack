@@ -1,0 +1,22 @@
+Category: hats
+  - Name: catbeanie, Price: $75.0, Colors: white,tan,brown,red,maroon,salmon,olive,green,blue,grey,purple,yellow,orange,black
+  - Name: newsboy, Price: $75.0, Colors: white,tan,brown,red,maroon,salmon,olive,green,blue,grey,purple,yellow,orange,black
+Category: shirts
+  - Name: star, Price: $100.0, Colors: white,tan,brown,red,maroon,salmon,olive,green,blue,grey,purple,yellow,orange,black
+  - Name: baggyshirt, Price: $100.0, Colors: white,tan,brown,red,maroon,salmon,olive,green,blue,grey,purple,yellow,orange,black
+Category: varsity jackets
+  - Name: wvarsity, Price: $250.0, Colors: tan,brown,red,maroon,salmon,olive,green,blue,grey,purple,yellow,orange,black
+  - Name: bvarsity, Price: $250.0, Colors: tan,brown,red,maroon,salmon,olive,green,blue,grey,purple,yellow,orange,white
+  - Name: varsity, Price: $200.0, Colors: gay,bi,pan,trans,ace,lesbian,mlm,nonbinary
+Category: pants and shorts
+  - Name: baggypants, Price: $75.0, Colors: white,tan,brown,red,maroon,salmon,olive,green,blue,grey,purple,yellow,orange,black
+  - Name: baggyshorts, Price: $75.0, Colors: white,tan,brown,red,maroon,salmon,olive,green,blue,grey,purple,yellow,orange,black
+Category: accessories
+  - Name: gradientglasses, Price: $150.0, Colors: white,tan,brown,red,maroon,salmon,olive,green,blue,grey,purple,yellow,orange,black
+  - Name: bubblegum, Price: $75.0, Colors: white,tan,brown,red,maroon,salmon,olive,green,blue,grey,purple,yellow,orange,black
+  - Name: tie, Price: $100.0, Colors: white,tan,brown,red,maroon,salmon,olive,green,blue,grey,purple,yellow,orange,black
+  - Name: backpack, Price: $250.0, Colors: white,tan,brown,red,maroon,salmon,olive,green,blue,grey,purple,yellow,orange,black
+  - Name: messengerbag, Price: $250.0, Colors: white,tan,brown,red,maroon,salmon,olive,green,blue,grey,purple,yellow,orange,black
+Category: special
+  - Name: catbeanie, Price: $75.0, Colors: brokie
+  - Name: zvarsity, Price: $250.0, Colors: black,lavender,trans
